@@ -4,32 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mitra App</title>
-
-  <!-- Progressive Web App -->
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#4CAF50">
-
   <style>
     body {
       margin: 0;
-      background-color: #ffffff;
-    }
-    iframe {
-      border: none;
-      width: 100vw;
+      background-color: #4CAF50;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       height: 100vh;
+      flex-direction: column;
+      font-family: sans-serif;
     }
   </style>
 </head>
 <body>
-  <!-- ฝังเว็บ Apps Script ของคุณ -->
-  <iframe src="https://script.google.com/macros/s/AKfycbyFInvD05D0s8nfU32nz_z1u-DFeCravXzeWePp18-E6OAjfRl0UPpIlWRxC4xo2XEMAw/exec"></iframe>
-
+  <h2>กำลังเปิด Mitra App...</h2>
   <script>
-    // ลงทะเบียน Service Worker (สำหรับ PWA)
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('service-worker.js');
-    }
+    // เปลี่ยนลิงก์นี้เป็นของคุณ
+    window.location.href = "https://script.google.com/macros/s/AKfycbyFInvD05D0s8nfU32nz_z1u-DFeCravXzeWePp18-E6OAjfRl0UPpIlWRxC4xo2XEMAw/exec";
   </script>
 </body>
 </html>
