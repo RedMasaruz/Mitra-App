@@ -1,6 +1,6 @@
 {
   "name": "MitraApp",
-  "short_name": "MyApp",
+  "short_name": "MitraApp",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
