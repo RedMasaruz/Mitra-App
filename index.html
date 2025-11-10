@@ -6,23 +6,25 @@
   <title>Mitra App</title>
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#4CAF50">
-  <link rel="icon" href="icons/icon-192.png">
   <style>
-    html,body{margin:0;padding:0;height:100%;}
-    iframe{width:100%;height:100%;border:0;}
-    header{background:#4CAF50;color:white;padding:10px;text-align:center;font-family:sans-serif;}
+    body {
+      margin: 0;
+      background-color: #4CAF50;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      font-family: sans-serif;
+    }
   </style>
 </head>
 <body>
-  <header>🌿 Mitra App</header>
-  <iframe src="https://script.google.com/macros/s/AKfycbyFInvD05D0s8nfU32nz_z1u-DFeCravXzeWePp18-E6OAjfRl0UPpIlWRxC4xo2XEMAw/exec"></iframe>
-  
+  <h2>กำลังเปิด Mitra App...</h2>
   <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./service-worker.js')
-        .then(() => console.log('Service Worker registered'))
-        .catch(err => console.log('SW failed', err));
-    }
+    // เปลี่ยนลิงก์นี้เป็นของคุณ
+    window.location.href = "https://script.google.com/macros/s/AKfycbyFInvD05D0s8nfU32nz_z1u-DFeCravXzeWePp18-E6OAjfRl0UPpIlWRxC4xo2XEMAw/exec";
   </script>
 </body>
 </html>
